@@ -1,6 +1,5 @@
 """一个简单的图，接受一个名字，输出对这个人的招呼"""
 
-
 from typing import TypedDict
 
 from langgraph.graph import StateGraph
@@ -31,6 +30,7 @@ graph.set_finish_point("greeter")
 # 编译图
 app = graph.compile()
 
+app.get_graph().draw_mermaid_png(output_file_path="hello_world.png")
 # 执行图
 result = app.invoke({"msg": "小林"})
 
