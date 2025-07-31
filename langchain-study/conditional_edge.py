@@ -55,6 +55,6 @@ graph.add_conditional_edges(
 )
 
 app = graph.compile()
-app.get_graph().draw_mermaid_png(output_file_path="conditional_edge.png")
-result = app.invoke({"operation": '+', 'param1': 0, 'param2': 1})
+# app.get_graph().draw_mermaid_png(output_file_path="conditional_edge.png")
+result = app.invoke({"operation": '+', 'param1': 10, 'param2': 1})
 print(result['result'])
