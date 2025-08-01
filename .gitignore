@@ -114,3 +114,8 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 /langchain-study/conda/
+langchain-study/agent/japaneseSearchAgent/embedding/chroma.sqlite3
+langchain-study/agent/japaneseSearchAgent/embedding/212cb2a6-f3de-4695-b160-4bbbeae69203/data_level0.bin
+langchain-study/agent/japaneseSearchAgent/embedding/212cb2a6-f3de-4695-b160-4bbbeae69203/header.bin
+langchain-study/agent/japaneseSearchAgent/embedding/212cb2a6-f3de-4695-b160-4bbbeae69203/length.bin
+langchain-study/agent/japaneseSearchAgent/embedding/212cb2a6-f3de-4695-b160-4bbbeae69203/link_lists.bin
