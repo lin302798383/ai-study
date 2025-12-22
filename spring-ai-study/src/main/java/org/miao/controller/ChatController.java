@@ -61,7 +61,6 @@ public class ChatController {
         
         List<String> models = chatService.getAvailableModels();
         logger.debug("返回模型列表，数量: {}", models.size());
-        
         return ResponseEntity.ok(models);
     }
 

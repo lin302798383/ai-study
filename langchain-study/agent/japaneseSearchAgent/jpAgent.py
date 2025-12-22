@@ -14,6 +14,8 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
+load_dotenv()
+
 embeddings = OpenAIEmbeddings(model="BAAI/bge-m3", openai_api_base="https://api.siliconflow.cn/v1",
                               openai_api_key="sk-iouvjpxeohtxiutubutcojkbmehexxuqxtcbsgtmrtkidhuv")
 pdf_path = "大日.pdf"
